@@ -1,0 +1,70 @@
+@import 'reset';
+
+
+
+/* **************************************************
+
+                        GLOBALS
+
+***************************************************** */
+
+
+.global_container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+/* **************************************************
+
+                        NAVBAR
+
+***************************************************** */
+header{
+  height: 970px;
+  background: url("../images/hdbg.jpg")no-repeat ;
+  background-size: cover;
+}
+.navbar{
+  background-color: rgba(100, 140, 255, 0.5);
+}
+.navbar-brand{
+  font-family: Ubuntu, serif;
+  font-weight: bold;
+  color: #ffffff !important;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.navbar-toggler{
+  background-color: #ffffff;
+}
+.nav-link{
+  font-family: Ubuntu, serif;
+  color: #ffffff !important;
+}
+@media (min-width: 992px) {
+  .nav-link{
+    margin-right: 80px !important;
+  }
+  .nav-link-last{
+    margin-right: 0 !important;
+  }
+}
+.nav-link:hover{
+  color: #f3531e !important;
+  font-weight: 900;
+}
+@media (min-width: 992px) {
+  .nav-link:hover{
+    font-weight: 400;
+  }
+}
+.nav-icon{
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .nav-icon{
+    margin-left: 35px;
+  }
+}

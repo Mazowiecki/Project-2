@@ -51,7 +51,7 @@ header{
 }
 .navbar{
   background-color: rgba(100, 140, 255, 0.9);
-  max-width: 1170px;
+  //max-width: 1170px; don't know what to do with it.If I turn it on navbar in only in 80% color when scroll down. I think that it is ok.
   margin: 0 auto;
 }
 .navbar-brand{
@@ -100,6 +100,8 @@ header{
                    Header Section
 
 ***************************************************** */
+
+
 .section-container{
   height: 850px;
   padding-top: 172px;
@@ -169,9 +171,6 @@ header{
 }
 
 
-
-
-
 .phone-photo {
   background: url("../images/phone.png") no-repeat center;
   margin-top: 60px;
@@ -194,11 +193,6 @@ header{
     bottom: 555px;
   }
 }
-
-
-
-
-
 .scroll-down{
   background: url("../images/scrolldown.png")no-repeat top;
   display: none;
@@ -210,3 +204,59 @@ header{
 
   }
 }
+
+/* **************************************************
+
+                   Features Section
+
+***************************************************** */
+
+.features{
+  height: 657px;
+}
+
+.features_title{
+  text-align: center;
+  font-family: Ubuntu, serif;
+  color: #648cff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 132px;
+}
+.features_subtitle{
+  font-family: Ubuntu, serif;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+.features img{
+  float: left;
+  padding-bottom: 100px;
+  margin-right: 21px;
+}
+.features .row div{
+  margin-top: 30px;
+}
+.features .row{
+  margin-top: 99px;
+}
+.features .row p:nth-child(2n){
+  font-family: Ubuntu, serif;
+  color: #353854;
+  font-size: 24px;
+  font-weight: 700;
+}
+.features .row p:nth-child(3n){
+  font-family: Ubuntu, serif;
+  color: #aeaeae;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 28px;
+  line-height: 30px;
+}
+
+//padding right repair that moves all site some pixels right
+

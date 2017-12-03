@@ -1,7 +1,6 @@
 {
   "name": "projekt",
   "version": "1.0.0",
-  "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,5 +22,14 @@
     "url-loader": "^0.5.9",
     "webpack": "^3.2.0",
     "webpack-dev-server": "^2.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mazowiecki/Project-PSD-to-HTML-Weather-Site-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mazowiecki/Project-PSD-to-HTML-Weather-Site-/issues"
+  },
+  "homepage": "https://github.com/Mazowiecki/Project-PSD-to-HTML-Weather-Site-#readme",
+  "description": ""
 }

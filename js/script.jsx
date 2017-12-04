@@ -3,7 +3,7 @@ require('../sass/style.scss');
 $(document).ready(function(){
 
 
-    let swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
         initialSlide: 1,
         grabCursor: true,

@@ -211,10 +211,6 @@ header{
 
 ***************************************************** */
 
-.features{
-  height: 657px;
-}
-
 .features_title{
   text-align: center;
   font-family: Ubuntu, serif;
@@ -258,5 +254,30 @@ header{
   line-height: 30px;
 }
 
-//padding right repair that moves all site some pixels right
+/* **************************************************
+
+                        Slider
+
+***************************************************** */
+.slider{
+  margin-top: 100px;
+  margin-bottom: 1000px;
+}
+.swiper-container{
+  height: 660px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide{
+  background-position: center;
+  background-size: cover;
+  height: 660px;
+  width: 317px;
+}
+.swiper-wrapper img{
+  -webkit-box-shadow: 0px 24px 93px -12px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 24px 93px -12px rgba(0,0,0,0.3);
+  box-shadow: 0px 24px 93px -12px rgba(0,0,0,0.3);
+}
+
 

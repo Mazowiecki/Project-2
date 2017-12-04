@@ -130,9 +130,13 @@ header {
 ***************************************************** */
 .section-container {
   height: 850px;
-  padding-top: 172px;
+  padding-top: 90px;
   padding-left: 16px;
   padding-right: 16px; }
+
+@media (min-width: 992px) {
+  .section-container {
+    padding-top: 172px; } }
 
 .title {
   font-family: Ubuntu, serif;

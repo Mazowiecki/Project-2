@@ -416,3 +416,256 @@ header{
     margin-top: 250px;
   }
 }
+
+/* **************************************************
+
+                      Comments
+
+***************************************************** */
+
+.upper_dash{
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: 0;
+  margin-bottom: 24px;
+}
+@media (min-width: 992px) {
+  .upper_dash{
+    margin-top: 87px;
+  }
+}
+.quotation{
+  font-family: Ubuntu, serif;
+  color: #353854;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+.author{
+  margin-top: 24px;
+  font-family: Ubuntu, serif;
+  color: #353854;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.lower_dash{
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .lower_dash{
+    margin-bottom: 96px;
+  }
+}
+
+
+/* **************************************************
+
+                      How to ?
+
+***************************************************** */
+
+.how_to{
+  background-color: #648cff;
+}
+@media (min-width: 992px) {
+  .how_to{
+    height: 462px;
+  }
+}
+.how_to_title{
+  font-family: Ubuntu, serif;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+@media (min-width: 992px) {
+  .how_to_title{
+    text-align: left;
+    margin-top: auto;
+  }
+}
+.how_to_subtitle{
+  font-family: Ubuntu, serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 46px;
+  margin-bottom: 32px;
+}
+@media (min-width: 992px) {
+  .how_to_subtitle{
+    text-align: left;
+  }
+}
+.how_to_phone1{
+  display: none;
+  margin-top: 63px;
+}
+.how_to_phone2{
+  display: none;
+  margin-top: 63px;
+}
+@media (min-width: 992px) {
+  .how_to_phone2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1470px) {
+  .how_to_phone2{
+    display: none;
+  }
+  .how_to_phone1{
+    display: block;
+  }
+}
+.how_to_links{
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .how_to_links{
+    justify-content: flex-start;
+  }
+}
+.how_to_links img{
+  padding-left: 3px;
+  margin-bottom: 50px;
+}
+
+/* **************************************************
+
+                      Footer
+
+***************************************************** */
+footer{
+  background-color: #353854;
+}
+@media (min-width: 992px) {
+  footer{
+    padding-bottom: 80px;
+  }
+}
+.footer_rlogo1 p{
+  font-family: Ubuntu, serif;
+  color: #648cff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+@media (min-width: 992px) {
+  .footer_rlogo1 p{
+    display: none;
+  }
+}
+.footer_rlogo1 span{
+  color: #fc6a42;
+}
+
+.footer_rlogo2 p{
+  display: none;
+  font-family: Ubuntu, serif;
+  color: #648cff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .footer_rlogo2 p{
+    display: block;
+  }
+}
+.footer_rlogo2 span{
+  color: #fc6a42;
+}
+@media (min-width: 992px) {
+  .footer_rlogo2{
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.footer_categories p{
+  font-family: Ubuntu, serif;
+  color: #b5b5c8;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.footer_categories{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+@media (min-width: 992px) {
+  .footer_categories ul{
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.footer_categories li{
+  list-style: none;
+}
+@media (min-width: 992px) {
+  .footer_categories li{
+    display: inline-block;
+  }
+  .footer_categories p:hover{
+    color: #ffffff;
+  }
+}
+.footer_icons i{
+  color: #b5b5c8;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .footer_icons i:hover{
+    color: #ffffff;
+  }
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer_line{
+  display: none;
+}
+.rights{
+  display: none;
+}
+@media (min-width: 992px) {
+  .footer_line{
+    display: block;
+    height: 1px;
+    background-color: #434769;
+
+  }
+  .rights{
+    display: block;
+    font-family: Ubuntu, serif;
+    color: #565a87;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 51px;
+  }
+  .flex_rights{
+    display: flex;
+    justify-content: flex-end;
+  }
+}

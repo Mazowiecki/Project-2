@@ -265,7 +265,6 @@ header{
 ***************************************************** */
 .slider{
   margin-top: 100px;
-  margin-bottom: 1000px;
 }
 .swiper-container{
   height: 660px;
@@ -285,3 +284,135 @@ header{
 }
 
 
+/* **************************************************
+
+                      Screenshots
+
+***************************************************** */
+
+          //Cloud
+.row{
+  display: flex;
+}
+.cloud_images{
+  order: 2;
+}
+@media (min-width: 992px) {
+  .cloud_images{
+    order: 1;
+  }
+}
+.cloud_text{
+  order: 1;
+}
+@media (min-width: 992px) {
+  .cloud_text{
+    order: 2;
+  }
+}
+
+
+
+.screen1{
+  display: none;
+}
+@media (min-width: 992px) {
+  .screen1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.screen1wt{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+@media (min-width: 992px) {
+  .screen1wt{
+    display: none;
+  }
+}
+.cloud_icon{
+  margin-top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 992px) {
+  .cloud_icon{
+    margin-left: 0;
+  }
+}
+.screen_cloud .features_title{
+  margin-top: 50px;
+}
+@media (min-width: 992px) {
+  .screen_cloud .features_subtitle{
+    margin-bottom: 180px;
+  }
+}
+@media (min-width: 992px) {
+  .screen_cloud .col-12 .features_title{
+    text-align: left;
+  }
+}
+.screen_cloud_subtitle{
+  font-family: Ubuntu, serif;
+  color: #353854;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 36px;
+}
+@media (min-width: 992px) {
+  .screen_cloud_subtitle{
+    text-align: left;
+  }
+}
+.screen_cloud_percents{
+  display: none;
+}
+@media (min-width: 992px) {
+  .screen_cloud_percents{
+    display: block;
+    margin-top: 50px;
+  }
+}
+
+
+      //Sun
+
+.screen_sun .features_title{
+  margin-top: 50px;
+}
+@media (min-width: 992px) {
+  .screen_sun .features_title{
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .screen_sun{
+    margin-top: 250px;
+  }
+}
+
+      //Rain
+
+.screen_rain .features_title{
+  margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+  .screen_rain .features_title{
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .screen_rain{
+    margin-top: 250px;
+  }
+}

@@ -94,7 +94,10 @@ $(document).ready(function () {
         }
     });
     
-    $(window).scroll(function () {
+    
+    
+    (function($){
+        $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#back-to-top').fadeIn();
             } else {
@@ -111,6 +114,8 @@ $(document).ready(function () {
         });
         
         $('#back-to-top').tooltip('show');
+    })(jQuery);
+    
     
 });
 

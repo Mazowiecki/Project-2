@@ -97,7 +97,7 @@ $(document).ready(function () {
     
     
     ;(function($){
-        $(window).scroll(function () {
+        $(window html body).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#back-to-top').fadeIn();
             } else {
